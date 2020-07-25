@@ -21,7 +21,7 @@ header{
 
 
 
-section{
+.seclogo{
     display: grid;
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(./img/maq1.jpg);
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ section{
     
 }
 
-h1{
+.seclogo h1{
     display: grid;
     justify-content:flex-start;
     align-items: flex-start;

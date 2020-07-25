@@ -12,41 +12,101 @@ body, main{
     width: 100%;
 }
 
-.product-client{
+.product h2,
+.client h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    letter-spacing: 5px;
+    -webkit-box-shadow: 1px 1px 1px rgba(60, 50, 50, 0.77);
+    -moz-box-shadow:    1px 1px 1px rgba(60, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(60, 50, 50, 0.77);
+}
+
+/* PRODUCT-CLIENT START */
+
+section.product-client{
     height: 100vh;
 }
 
+/* PRODUCT-FLEX START */
+
+
 .product{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.product-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    margin: 15px;
+    margin: 25px;
+    padding-top: 25px ;
+    border-radius: 50px;
 }
 
 .product-item{
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    -webkit-box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    5px 5px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         5px 5px 5px rgba(50, 50, 50, 0.77);
+}
+
+.product-item p{
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .product-item img{
-    display: flex;
-    height: 100px;
-}
-.product-item p{
-    display: block;
+    display: inline-flex;
+    height: 180px;
 }
 
+
+/* PRODUCT-FLEX END */
+
+/* CLIENT-GRID START */
+
 .client{
+    height: 700px;
+}
+
+.client-grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: 2;
     height: 60vh;
     margin: 15px;
+    justify-items: center;
+    align-items: center;
 }
 
 .client-item img{
     display: grid;
-    height: 100px;
+    height: 50px;
 }
+
+
+
+/* CLIENT-GRID END */
+
+/* PRODUCT-CLIENT END */
