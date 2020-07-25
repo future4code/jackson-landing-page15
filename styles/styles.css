@@ -6,53 +6,58 @@ header{
 #navheader{
     display: flex;
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
     justify-content: space-around;
-    background-color: rgb(222, 165, 39);
+    background-color: rgb(225, 229, 28);
     align-items: center;
 }
 .navlogo{
-    width: 7vw;
-    height: 7vw;
+    width: 15vw;
+    height: 18vh;
 }
 .navcontent{
     display: flex;
+    font-size: 20px;
 }
 
 
 
+<<<<<<< HEAD:styles.css
+.sections{
+=======
 .seclogo{
+>>>>>>> master:styles/styles.css
     display: grid;
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(./img/maq1.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.1)),url(./img/maq1.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 85vh;
     width: 100vw;
-    height: 85vh;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 20vh 1fr 1fr;
+    height: 80vh;
+    grid-template-rows: 1fr 11vh 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 
+<<<<<<< HEAD:styles.css
+.secheader{
+=======
 .seclogo h1{
+>>>>>>> master:styles/styles.css
     display: grid;
-    justify-content:flex-start;
-    align-items: flex-start;
-    grid-row: 2;
-    grid-column: 3;
+    justify-content:flex-end;
+    align-items: flex-end;
+    grid-row: 1;
+    grid-column: 2;
     margin-top: 0;
-    font-family:s
-
+    color:black;
 }
 
 #seclogo{
     display: grid;
-    justify-content: flex-start;
-    align-items:flex-start;
-    width: 8vw;
-    height: 10vh;
-    grid-row: 2;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width: 35vw;
+    height: 40vh;
+    grid-row: 1;
     grid-column: 2;
-
-    
-    
 }
