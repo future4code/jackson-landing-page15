@@ -67,7 +67,7 @@ header{
     background-size: 100vw 85vh;
     width: 100%;
     height: 85vh;
-    grid-template-rows: 1fr 11vh 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
@@ -329,36 +329,109 @@ body, main{
     height: 10vh;
     align-items: center;
     margin-bottom: 0;
+    font-weight: bold;
     
 }
 
 .contact-button{
     display: flex;
-    background-color:rgb(48,48,47);;
     color:white;
-    width:6vw;
-    height: 3vh;
-    text-align: center;
+    width:5vw;
+    text-decoration: none;
     justify-content: center;
-    -webkit-box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.77);
-    -moz-box-shadow:    5px 5px 5px rgba(50, 50, 50, 0.77);
-    box-shadow:         5px 5px 5px rgba(50, 50, 50, 0.77);
+    background-color: black;
+    border: none;
+    border-radius: 60px;
+    align-items: center;
+    transition: 0.3s;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+.contact-button:hover{
+    background-color: white;
+    color: black;
+}
+
 .fter{
-    background-color: rgb(48,48,47);;
+    background-color:black;
     color:white;
     height: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
     margin-top: 0;
-
 }
+
+.social2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkedin2 img,
+#facebook2 img,
+#instagram2 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.3s;}
+
 .copyright{
     display: flex;
     text-align: center;
     justify-content: center;
-
 }
+/*contato.html*/
+#contato-html{
+display:grid;
+width: 100%;
+height: 65vh;
+justify-content: center;
+grid-template-rows: 20vh 1fr;
+grid-template-columns: 1fr;
+}
+#contatoh1{
+display:grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.form{
+display:grid;
+justify-content: center;
+justify-self: center;
+align-items: center;
+align-content: center;
+width: 1vw;
+height: 1vh;
+}
+label, input{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.botaoform{
+    margin-top:10px;
+    width: 5vw;
+    text-decoration: none;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 60px;
+    align-items: center;
+    transition: 0.3s;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.botaoform:hover{
+    background-color:rgb(255,229,28);
+    color: black
+}
+
+
