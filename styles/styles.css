@@ -19,6 +19,11 @@ header{
     justify-content: space-around;
     background-color: rgb(225, 229, 28);
     align-items: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+
+
 }
 .navlogo{
     width: 15vw;
@@ -31,13 +36,9 @@ header{
 
 
 
-<<<<<<< HEAD:styles.css
 .sections{
-=======
-.seclogo{
->>>>>>> master:styles/styles.css
     display: grid;
-    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.1)),url(./img/maq1.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.1)),url(../img/maq1.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 85vh;
     width: 100vw;
@@ -47,11 +48,7 @@ header{
     
 }
 
-<<<<<<< HEAD:styles.css
 .secheader{
-=======
-.seclogo h1{
->>>>>>> master:styles/styles.css
     display: grid;
     justify-content:flex-end;
     align-items: flex-end;
