@@ -10,7 +10,6 @@
 
 header{
     width: 100%;
-    height: 100vh;
 }
 
 .navheader{
@@ -19,8 +18,8 @@ header{
     height: 15vh;
     justify-content: space-between;
     background-color: rgb(255,229,28);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     align-items: center;
     letter-spacing: 1px;
     font-weight: bold;
@@ -45,19 +44,15 @@ header{
 .nav-flex a{
     text-decoration: none;
     text-align: center;
-    padding: 5px 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid transparent;
+    color: black;
     transition: 0.3s;
 }
 
 .nav-flex a:hover{
-    background-color: white;
-    color: black;
+    border-bottom: 1px solid black;
 }
 
 .sections{
@@ -320,8 +315,11 @@ body, main{
 }
 /* CLIENT-GRID END */
 /* PRODUCT-CLIENT END */
-/*Joao end*/
-/*Thiago start*/
+
+/*JOAO END*/
+
+/*THIAGO START*/
+
 .contact{
     display: flex;
     justify-content: space-around;
@@ -330,21 +328,26 @@ body, main{
     align-items: center;
     margin-bottom: 0;
     font-weight: bold;
-    
+}
+
+.contact h1{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .contact-button{
     display: flex;
     color:white;
-    width:5vw;
-    text-decoration: none;
     justify-content: center;
     background-color: black;
     border: none;
     border-radius: 60px;
     align-items: center;
     transition: 0.3s;
-    padding: 5px 10px;
+    padding: 6px 12px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -353,6 +356,8 @@ body, main{
     color: black;
 }
 
+/* FOOTER START */
+
 .fter{
     background-color:black;
     color:white;
@@ -360,9 +365,8 @@ body, main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .social2{
@@ -370,22 +374,28 @@ body, main{
     justify-content: center;
     align-items: center;
 }
+
 #linkedin2 img,
 #facebook2 img,
 #instagram2 img{
     height: 30px;
     width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius:5px;
     transition: 0.3s;}
 
-.copyright{
+.fter p{
     display: flex;
     text-align: center;
     justify-content: center;
+    letter-spacing: 1px;    
 }
+
+/* FOOTER END */
+
 /*contato.html*/
+
 #contato-html{
 display:grid;
 width: 100%;
@@ -394,44 +404,68 @@ justify-content: center;
 grid-template-rows: 20vh 1fr;
 grid-template-columns: 1fr;
 }
+
 #contatoh1{
 display:grid;
 justify-content: center;
 align-items: center;
 text-align: center;
 }
+
 .form{
-display:grid;
+display: grid;
 justify-content: center;
-justify-self: center;
-align-items: center;
-align-content: center;
-width: 1vw;
-height: 1vh;
+align-content: start;
 }
+
+.form-item{
+    display: flex;
+}
+
 label, input{
-    margin-top: 10px;
+    margin: 10px 10px 10px;
     font-weight: bold;
+    align-self: left;
 }
+
+input {
+    width: 250px;
+    height: 25px;
+}
+
 .botaoform{
     margin-top:10px;
-    width: 5vw;
+    width: 50%;
     text-decoration: none;
-    justify-content: center;
+    justify-self: center;
     background-color: black;
     color: white;
     border: none;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 60px;
     align-items: center;
     transition: 0.3s;
-    padding: 5px 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 8px 10px;
+    outline: none;
 }
+
 .botaoform:hover{
     background-color:rgb(255,229,28);
     color: black
 }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    .navheader{
+        margin: 2px;
+        padding: 0;
+        letter-spacing: 0px;
+        height: 12vh;
+    }
+    .navlogo{
+        display:none;
 
+    }
+
+}
+    
