@@ -29,7 +29,7 @@ header{
     background-size: 100vw 85vh;
     width: 100vw;
     height: 80vh;
-    grid-template-rows: 1fr 10vh 1fr;
+    grid-template-rows: 1fr 11vh 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
