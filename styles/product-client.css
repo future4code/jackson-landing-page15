@@ -21,7 +21,7 @@ body, main{
     font-size: 2em;
     color: white;
     background-color: rgb(48,48,47);
-    padding: 20px;
+    padding: 25px;
     letter-spacing: 5px;
     -webkit-box-shadow: 1px 1px 1px rgba(60, 50, 50, 0.77);
     -moz-box-shadow:    1px 1px 1px rgba(60, 50, 50, 0.77);
@@ -81,11 +81,11 @@ body, main{
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    -webkit-filter: grayscale(80%);
-    -moz-filter: grayscale(80%);
-    -o-filter: grayscale(80%);
-    -ms-filter: grayscale(80%);
-    filter: grayscale(80%); 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
 }
 
 /* SOCIAL END */
