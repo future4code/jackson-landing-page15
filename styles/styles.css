@@ -322,7 +322,6 @@ height: 50px;
 /*THIAGO START*/
 
 .contact{
-<<<<<<< HEAD
 display: flex;
 justify-content: space-around;
 background-color:rgb(255,229,28);
@@ -347,37 +346,6 @@ transition: 0.3s;
 padding: 5px 10px;
 margin-left: 5px;
 margin-right: 5px;
-=======
-    display: flex;
-    justify-content: space-around;
-    background-color:rgb(255,229,28);
-    height: 10vh;
-    align-items: center;
-    margin-bottom: 0;
-    font-weight: bold;
-}
-
-.contact h1{
-    font-size: 18px;
-}
-
-a{
-    text-decoration: none;
-}
-
-.contact-button{
-    display: flex;
-    color:white;
-    justify-content: center;
-    background-color: black;
-    border: none;
-    border-radius: 60px;
-    align-items: center;
-    transition: 0.3s;
-    padding: 6px 12px;
-    margin-left: 5px;
-    margin-right: 5px;
->>>>>>> master
 }
 .contact-button:hover{
 background-color: white;
@@ -387,7 +355,6 @@ color: black;
 /* FOOTER START */
 
 .fter{
-<<<<<<< HEAD
 background-color:black;
 color:white;
 height: 20vh;
@@ -397,16 +364,6 @@ align-items: center;
 margin-top: 20px;
 flex-wrap: wrap;
 margin-top: 0;
-=======
-    background-color:black;
-    color:white;
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
->>>>>>> master
 }
 
 .social2{
@@ -418,7 +375,6 @@ align-items: center;
 #linkedin2 img,
 #facebook2 img,
 #instagram2 img{
-<<<<<<< HEAD
 height: 30px;
 width: 30px;
 margin-left: 10px;
@@ -430,20 +386,6 @@ transition: 0.3s;}
 display: flex;
 text-align: center;
 justify-content: center;
-=======
-    height: 30px;
-    width: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius:5px;
-    transition: 0.3s;}
-
-.fter p{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 1px;    
->>>>>>> master
 }
 
 /* FOOTER END */
@@ -477,14 +419,8 @@ align-content: start;
 }
 
 label, input{
-<<<<<<< HEAD
 margin-top: 10px;
 font-weight: bold;
-=======
-    margin: 10px 10px 10px;
-    font-weight: bold;
-    align-self: left;
->>>>>>> master
 }
 
 input {
@@ -493,7 +429,6 @@ input {
 }
 
 .botaoform{
-<<<<<<< HEAD
 display: flex;
 margin-top:10px;
 width: 125px;
@@ -509,22 +444,6 @@ transition: 0.3s;
 padding: 5px 10px;
 margin-left: 5px;
 margin-right: 5px;
-=======
-    margin-top:10px;
-    width: 50%;
-    text-decoration: none;
-    justify-self: center;
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 60px;
-    align-items: center;
-    transition: 0.3s;
-    padding: 8px 10px;
-    outline: none;
->>>>>>> master
 }
 
 .botaoform:hover{
@@ -532,16 +451,15 @@ background-color:rgb(255,229,28);
 color: black
 }
 
-<<<<<<< HEAD
 /*contato html end*/
 /*resposive contato*/
 
 @media screen and (min-device-width: 375px) and (max-device-width:420px){
 header{
 width: 100vw;
-height: 100vh;
-}
-    
+
+}    
+
 .navheader{
 display: flex;
 width: 100%;
@@ -560,7 +478,7 @@ position: relative;
 }
     
 .navlogo{
-width: 125px;
+width: 115px;
 border-radius: 30px;
 }
 .navcontent{
@@ -572,30 +490,25 @@ display: flex;
 }
     
 .nav-flex a{
-text-decoration: none;
-text-align: center;
-padding: 5px 10px;
-margin-left: 5px;
-margin-right: 5px;
-background-color: black;
-color: white;
-border: none;
-border-radius: 50px;
-transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid transparent;
+    color: black;
+    transition: 0.3s;
 }
-    
+
 .nav-flex a:hover{
-background-color: white;
-color: black;
+    border-bottom: 1px solid black;
 }
-    
 #contato-html{
 display:grid;
 width: 100%;
-height: 65vh;
+height: 50vh;
 justify-content: center;
 grid-template-rows: 1fr 1fr;
-grid-template-columns: 1fr;
+grid-template-columns: 10vh;
 }
 #contatoh1{
 display:grid;
@@ -609,11 +522,10 @@ justify-content: center;
 justify-self: center;
 align-items: center;
 align-content: center;
-width: 1vw;
+width: 1vh;
 height: 1vh;
 }
 label, input{
-margin-top: 10px;
 font-weight: bold;
 }
 .botaoform{
@@ -671,20 +583,7 @@ display: flex;
 text-align: center;
 justify-content: center;
 }
-}
-=======
-@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
-    .navheader{
-        margin: 2px;
-        padding: 0;
-        letter-spacing: 0px;
-        height: 12vh;
-    }
-    .navlogo{
-        display:none;
->>>>>>> master
-
-    }
 
 }
-    
+
+
